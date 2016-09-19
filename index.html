@@ -1,0 +1,45 @@
+
+<!DOCTYPE html><html lang="pt-br"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Validação de Formulário com HTML5 e Javascript</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<h1 class="header-title">Donuts</h1>
+	</header>
+
+	<section class="section">
+		<form class="section-formulario">
+			<h3 class="section-formulario_title">MAKE YOUR WISH</h3>
+			<label for="name">Name</label> <br>
+			<input id="nameClient" type="text" placeholder="Fulano"> <br>
+			<label for="amount">Amount</label> <br>
+			<input id="amountDonuts" type="text" placeholder="0" onchange="updateorder()"> <br>
+			<label for="minutes">Minutes</label> <br>
+			<input id="minutes" type="text" placeholder="60"> <br>
+			<label for="subtotal">Subtotal</label> <br>
+			<input id="subtotal" type="text" value="R$ 0.00" readonly="true"> <br>
+			<label for="rate">Rate</label> <br>
+			<input id="rate" type="text" value="R$ 0.00" readonly="true"> <br>
+			<label for="total">Total</label><br>
+			<input id="total" type="text" value="R$ 0.00" readonly="true"> <br>
+			<input class="btn" type="button" value="Send" onclick="placeOrder(this.form);">
+		</form>
+
+		<div class="secton-homer">
+			<img class="secton-img_homer" src="homer.png" alt="homer comento donuts">	
+		</div>
+
+		<div class="secton-donuts">
+			<img class="secton-img_donuts" src="donuts.png" alt="bandeija de donuts">	
+		</div>
+
+	</section>
+
+	<script src="script.js"></script>
+</body>
+</html>
