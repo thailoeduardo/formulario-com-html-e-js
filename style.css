@@ -1,0 +1,82 @@
+*{ 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*
+* header ==================================================
+*/
+
+.header{
+	background-color: #FFF;
+	height: auto;
+	padding: 1%;
+	width: 100%;
+}
+
+	.header-title{
+		color: #C0C0C0;
+		font-size: 2em;
+		text-align: center;
+	}
+
+/*
+* section ==================================================
+*/
+
+.section{
+	background-color: #FFF;
+	height: auto;
+	width: 100%;
+}	
+	.section-formulario{
+		height: auto;
+		width: 300px;
+		margin: 0 auto;
+		padding: 1%;
+	}
+
+	.section-formulario_title{ text-align: center; }
+
+	.section-formulario label{
+		color: #525252;
+		text-align: left;
+	}
+
+	.section-formulario input{
+		border: 1px solid #CCC;
+		margin: 2% 0; 
+		padding: 2%;
+		width: 100%;
+	}
+
+	.section-formulario .btn{
+		background-color: #eee;
+		width: auto;
+	}
+
+	.secton-homer{
+		height: auto;
+	    position: absolute;
+	    right: 5%;
+	    top: 20%;
+	    width: 300px;
+	}
+
+	.secton-donuts{
+		height: auto;
+	    left: 5%;
+	    position: absolute;
+	    top: 20%;
+	    width: 300px;
+	}
+
+		.secton-img_homer, 
+		.secton-img_donuts { 
+			height: auto;
+			max-width: 100%;
+		}
+
+
